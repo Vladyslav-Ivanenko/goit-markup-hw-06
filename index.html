@@ -52,6 +52,11 @@
             </li>
           </ul>
         </address>
+        <button class="menu-btn" type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- ============MAIN============== -->
@@ -129,7 +134,11 @@
             <li class="list-item">
               <img
                 class="list-image"
-                src="./images/mark-guerrero.jpg"
+                src="../images/our-team/mark-guerrero.jpg"
+                srcset="
+                  ../images/our-team/mark-guerrero.jpg 1x,
+                  ../images/our-team/mark@2.jpg        2x
+                "
                 alt="Mark Guerrero avatar"
                 width="264"
                 height="260"
@@ -172,7 +181,11 @@
             <li class="list-item">
               <img
                 class="list-image"
-                src="./images/tom-ford.jpg"
+                src="../images/our-team/tom-ford.jpg"
+                srcset="
+                  ../images/our-team/tom-ford.jpg 1x,
+                  ../images/our-team/tom@2.jpg    2x
+                "
                 alt="Tom Ford avatar"
                 width="264"
                 height="260"
@@ -215,7 +228,11 @@
             <li class="list-item">
               <img
                 class="list-image"
-                src="./images/camila-garcia.jpg"
+                src="../images/our-team/camila-garcia.jpg"
+                srcset="
+                  ../images/our-team/camila-garcia.jpg 1x,
+                  ../images/our-team/camila@2.jpg      2x
+                "
                 alt="Camila Garcia avatar"
                 width="264"
                 height="260"
@@ -258,7 +275,11 @@
             <li class="list-item">
               <img
                 class="list-image"
-                src="./images/daniel-wilson.jpg"
+                src="../images/our-team/daniel-wilson.jpg"
+                srcset="
+                  ../images/our-team/daniel-wilson.jpg 1x,
+                  ../images/our-team/daniel@2.jpg      2x
+                "
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -310,7 +331,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/banking-app.jpg"
+                  src="../images/portfolio/banking-app.jpg"
+                  srcset="
+                    ../images/portfolio/banking-app.jpg 1x,
+                    ../images/portfolio/bank@2.jpg      2x
+                  "
                   alt="Banking App avatar"
                   width="360"
                   height="300"
@@ -330,7 +355,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/cashless-payment.jpg"
+                  src="../images/portfolio/cashless-payment.jpg"
+                  srcset="
+                    ../images/portfolio/cashless-payment.jpg 1x,
+                    ../images/portfolio/cashless@2.jpg       2x
+                  "
                   alt="Cashless payment avatar"
                   width="360"
                   height="300"
@@ -350,7 +379,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/meditation-payment.jpg"
+                  src="../images/portfolio/meditation-payment.jpg"
+                  srcset="
+                    ../images/portfolio/meditation-payment.jpg 1x,
+                    ../images/portfolio/meditation@2.jpg       2x
+                  "
                   alt="Meditation App avatar"
                   width="360"
                   height="300"
@@ -370,7 +403,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/taxi-service.jpg"
+                  src="../images/portfolio/taxi-service.jpg"
+                  srcset="
+                    ../images/portfolio/taxi-service.jpg 1x,
+                    ../images/portfolio/taxi@2.jpg       2x
+                  "
                   alt="Taxi Service avatar"
                   width="360"
                   height="300"
@@ -390,7 +427,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/screen-illustrations.jpg"
+                  src="../images/portfolio/screen-illustrations.jpg"
+                  srcset="
+                    ../images/portfolio/screen-illustrations.jpg 1x,
+                    ../images/portfolio/screen@2.jpg             2x
+                  "
                   alt="Screen Illustrations avatar"
                   width="360"
                   height="300"
@@ -410,7 +451,11 @@
               <div class="portfolio-box">
                 <img
                   class="list-image"
-                  src="./images/online-courses.jpg"
+                  src="../images/portfolio/online-courses.jpg"
+                  srcset="
+                    ../images/portfolio/online-courses.jpg 1x,
+                    ../images/portfolio/course@2.jpg       2x
+                  "
                   alt="Online Courses avatar"
                   width="360"
                   height="300"
@@ -433,49 +478,51 @@
     <!-- ================FOOTER============== -->
     <footer class="page-footer">
       <div class="container footer-container">
-        <div class="footer-column first-column">
-          <a class="page-logo footer-logo" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
+        <div class="column-thumb-footer">
+          <div class="footer-column first-column">
+            <a class="page-logo footer-logo" href="./index.html"
+              >Web<span class="logo-part">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-column second-column">
+            <p class="thumb-text">Social media</p>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a class="social-link footer-link" href="">
+                  <svg class="social-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a class="social-link footer-link" href="">
+                  <svg class="social-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a class="social-link footer-link" href="">
+                  <svg class="social-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a class="social-link footer-link" href="">
+                  <svg class="social-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-column second-column">
-          <p class="thumb-text">Social media</p>
-          <ul class="footer-list">
-            <li class="footer-list-item">
-              <a class="social-link footer-link" href="">
-                <svg class="social-link-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-item">
-              <a class="social-link footer-link" href="">
-                <svg class="social-link-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-item">
-              <a class="social-link footer-link" href="">
-                <svg class="social-link-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-item">
-              <a class="social-link footer-link" href="">
-                <svg class="social-link-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="third-column">
+        <div class="footer-column third-column">
           <p class="thumb-text">Subscribe</p>
           <form class="subscribtion-container" autocomplete="off" novalidate>
             <label class="subscribtion-form">
@@ -497,7 +544,7 @@
       </div>
     </footer>
     <!-- ===========MODAL OVERLAY=============-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-icon-button" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -506,7 +553,7 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="form" name="user-info" autocomplete="off" novalidate>
-          <div class="item-container">
+          <div class="item-container-modal">
             <label class="form-item" for="user-name">Name</label>
             <div class="input-container">
               <input
@@ -520,7 +567,7 @@
               </svg>
             </div>
           </div>
-          <div class="item-container">
+          <div class="item-container-modal">
             <label class="form-item" for="user-phone">Phone</label>
             <div class="input-container">
               <input
@@ -534,7 +581,7 @@
               </svg>
             </div>
           </div>
-          <div class="item-container">
+          <div class="item-container-modal">
             <label class="form-item" for="user-email">Email</label>
             <div class="input-container">
               <input
@@ -548,7 +595,7 @@
               </svg>
             </div>
           </div>
-          <div class="item-container comment">
+          <div class="item-container-modal comment">
             <label class="form-item" for="user-comment">Comment</label>
             <textarea
               id="user-comment"
@@ -577,6 +624,65 @@
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <!-- =================MENU OVERLAY============== -->
+    <div class="menu-overlay">
+      <div class="container menu">
+        <button class="close-icon-button" type="button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use>
+          </svg>
+        </button>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="" class="menu-link current">Studio</a>
+          </li>
+          <li class="menu-item"><a href="" class="menu-link">Portfolio</a></li>
+          <li class="menu-item"><a href="" class="menu-link">Contacts</a></li>
+        </ul>
+        <address class="contacts-menu">
+          <ul class="contacts-list-menu">
+            <li class="contacts-item-menu">
+              <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="contacts-item-menu">
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="social-links-menu">
+          <li class="link-list-item-menu">
+            <a class="social-link" href="">
+              <svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="link-list-item-menu">
+            <a class="social-link" href="">
+              <svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="link-list-item-menu">
+            <a class="social-link" href="">
+              <svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="link-list-item-menu">
+            <a class="social-link" href="">
+              <svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
